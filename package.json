@@ -13,8 +13,10 @@
     "@react-three/drei": "^10.0.6",
     "@react-three/fiber": "^9.1.2",
     "leva": "^0.10.0",
+    "r3f-perf": "6.5",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
+    "stats.js": "^0.17.0",
     "three": "^0.175.0"
   },
   "devDependencies": {
