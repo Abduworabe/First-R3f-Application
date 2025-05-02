@@ -22,8 +22,6 @@ function App() {
   //     max: 4,
   //     step: 0.01,
   //   }
-
-
   // });
 
   //Instead of adding a second rage tweak we anre going to use  a vector 2 tweak
@@ -88,10 +86,8 @@ const {cubescale}=useControls('Cube', {
 
   // Add the r3f-perf dependency with npm install rsr-parf mind now it is pro whan we install versioned rsr 
   //npm show rsr-parf version
-
   //insted of r3f we can use old librery
 //npm install stats.js
-
   return (
     <>
     {/* <Perf/> */}
@@ -112,7 +108,6 @@ const {cubescale}=useControls('Cube', {
           <meshStandardMaterial args={[{ color: 'blue' }]} wireframe={false} />
         </mesh>
       </group>
-
       <mesh scale={7} rotation-x={-Math.PI * 0.5} position-y={-1}>
         <planeGeometry />
         <meshStandardMaterial color={'green'} />
@@ -120,5 +115,4 @@ const {cubescale}=useControls('Cube', {
     </>
   );
 }
-
 export default App;
